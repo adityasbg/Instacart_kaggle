@@ -1,0 +1,26 @@
+
+<html>
+<head>
+    <h1> InstaCart Market basket analysis</h1>
+</head>
+
+<body>
+
+    <h2>Product Suggested</h2>
+
+    <form action="/predict", method = "post" >
+      <label for="order_id">Order number :</label><br>
+      <input type="number" id="order_id" name="order_id" value="17"><br>
+      <input id='submit' type="submit" value="Submit">
+    </form> 
+
+
+    <p> Suggested Product for order id:  {{order_id}}</p>
+    <p id='output'> {{product_id}} </p>
+    
+    
+</body>
+
+
+
+</html>
