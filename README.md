@@ -37,6 +37,8 @@ reorder value is missing meaning we do not have any information about reorder.
 We will be training a binary classification model to predict if the user reordered the product or
 not.For model selection we will select the model that gives the best  F1 score.
 
+[Medium Blog](https://adityaghoshsbg.medium.com/instacart-market-basket-analysis-case-study-986090bb8f1c)
+
 # Leaderboard score 0.355280
 
 
